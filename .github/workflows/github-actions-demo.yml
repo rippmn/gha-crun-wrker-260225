@@ -7,7 +7,5 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Set up Docker
-        uses: docker/setup-docker-action@v4
       - name: build it
-        run: docker info
+        run: docker build .
