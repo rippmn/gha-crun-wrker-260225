@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 run-name: build bombardier
 on: [push]
 jobs:
-  build bombardier:
+  build-bombardier:
     runs-on: self-hosted 
     steps:
       - name: Checkout
