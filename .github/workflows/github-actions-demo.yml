@@ -18,3 +18,4 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: whoami
       - run: getent group | grep runner
+      - run: docker info
