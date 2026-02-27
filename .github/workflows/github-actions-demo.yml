@@ -12,7 +12,7 @@ jobs:
  #     - name: build it
  #       run: docker build .
       - name: wait-for-it
-        run: sleep 60
+        run: sleep 61
       - name: done
         run: echo "Times up"
  
