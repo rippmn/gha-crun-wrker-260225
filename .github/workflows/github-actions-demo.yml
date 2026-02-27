@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
- #     - name: build it
- #       run: docker build .
-      - name: wait-for-it
-        run: sleep 61
+      - name: build it
+        run: docker build .
+ #     - name: wait-for-it
+ #       run: sleep 61
       - name: done
         run: echo "Times up"
  
