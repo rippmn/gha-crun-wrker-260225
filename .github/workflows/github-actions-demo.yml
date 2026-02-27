@@ -15,8 +15,10 @@ jobs:
  #       run: sleep 61
       - name: userid
         run: whoami
-      - name: file contente
+      - name: file contents
         run: ls /home/runner/externals/
+      - name: cp file contents
+        run: ls /home/runner/tmpDir
       - name: done
         run: echo "Times up"
  
