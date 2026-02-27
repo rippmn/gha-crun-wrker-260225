@@ -15,10 +15,6 @@ jobs:
  #       run: sleep 61
       - name: userid
         run: whoami
-      - name: file contents
-        run: ls /home/runner/externals/
-      - name: cp file contents
-        run: ls /home/runner/tmpDir
       - name: build it
         run: docker build .
       - name: done
