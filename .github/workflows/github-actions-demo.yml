@@ -19,6 +19,8 @@ jobs:
         run: ls /home/runner/externals/
       - name: cp file contents
         run: ls /home/runner/tmpDir
+      - name: build it
+        run: docker build .
       - name: done
         run: echo "Times up"
  
